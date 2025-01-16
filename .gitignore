@@ -1,0 +1,17 @@
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Maven
+target/
+
+# Gradle
+.gradle/
+build/
+
+# IDEs
+*.iml
+.idea/
+.vscode/
