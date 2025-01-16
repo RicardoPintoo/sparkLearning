@@ -86,7 +86,7 @@ public class RDDExternalDatasetsTest {
             System.out.println(myRdd.first());
             System.out.println("--------------------");
 
-            System.out.println("Printing first 10 lines~>");
+            System.out.println("Printing first 10 lines : ");
             myRdd.take(10).forEach(System.out::println);
             System.out.println("--------------------");
 
