@@ -11,7 +11,6 @@ import org.junit.jupiter.params.provider.ValueSource;
 
 import java.nio.file.AccessDeniedException;
 import java.nio.file.Path;
-import java.util.List;
 import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.assertThrows;
