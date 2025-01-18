@@ -52,7 +52,7 @@ public class RDDReduceTest {
                 System.out.println("[Spark RDD Reduce] SUM:" + sum);
             }
             final long timeElapsed = (Duration.between(start, Instant.now()).toMillis()) / noOfIterations;
-            System.out.printf("[Spark RDD Reduce] time taken: %d ms%n%n", timeElapsed);
+            System.out.printf("[Spark RDD Reduce] time taken: %d ms%n%n ", timeElapsed);
         }
     }
 }
