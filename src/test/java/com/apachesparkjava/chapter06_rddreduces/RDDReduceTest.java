@@ -17,6 +17,7 @@ import java.util.stream.Collectors;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.ArgumentMatchers.shortThat;
 
+
 public class RDDReduceTest {
 
     private final SparkConf sparkConf = new SparkConf().setAppName("RDDReduceTest")
