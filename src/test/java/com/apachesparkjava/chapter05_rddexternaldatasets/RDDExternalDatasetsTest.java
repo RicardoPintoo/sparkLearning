@@ -24,7 +24,8 @@ public class RDDExternalDatasetsTest {
     @ParameterizedTest
     @ValueSource(strings = {
             "src\\test\\resources\\1000words.txt",
-            "src\\test\\resources\\wordslist.txt.gz"
+            "src\\test\\resources\\wordslist.txt.gz",
+            "ooooooooooooo"
     })
     @DisplayName("Test loading local text file into Spark RDD")
     void testLoadingLocalTextFileIntoSparkRDDUsingValueSource(final String testFilePath) {
